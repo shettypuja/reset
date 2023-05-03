@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.pass_container {
+    display: flex;
+    height: 100vh;
+}
+
+.pass_left {
+    width: 50%;
+    height: 100%;
+    background-color: teal;
+}
+
+.img1{
+    background-image: url('./image/image1.png');
+    background-position: center;
+    background-size: cover;
+    margin-top: 20px;
+    margin-left: 50px;
+    height: 50px;
+    width: 100px;
+
+}
+
+.img2{
+    background-image: url('./image/hero1.png');
+    background-position: center;
+    background-size: cover;
+    margin-top: 70px;
+    margin-left: 200px;
+    height: 200px;
+    width: 205px;
+}
+.pass_right{
+    width: 50%;
+    height: 100%;
+    background-color: #FFFFFF;
+}
+.setting_logo{
+    background-image: url('./image/check 1.png');
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+}
+.reset_details{
+    width: 50%;
+    margin: 0 auto;
+}
+.info{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+.head_info{
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 7px;
+}
+.entry_info{
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    padding-bottom: 7px;
+    color: #959BA6;
+}
+.button_container1{
+    height: 50px;
+    width: 60%;
+    padding: 5px;
+    border-radius: 4px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    margin: 17px 133px;
+}
+.Back_btn{
+    width: 35%;
+    background-color: #F5F7F9;
+    border: none;
+    color: rgb(10, 9, 9);
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 113px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.Back_btn{
+    background-color: teal;
+    color: #fff;
+}
